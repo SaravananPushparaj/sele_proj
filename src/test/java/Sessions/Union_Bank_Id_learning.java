@@ -11,6 +11,7 @@ public class Union_Bank_Id_learning {
 		FirefoxDriver driver= new FirefoxDriver();
 		driver.get("http://www.unionbankofindia.co.in/EMICal.aspx");
 		
+		System.out.println("started");
 		driver.manage().window().maximize();
 		
 		driver.findElement(By.id("loanamount")).sendKeys("10000");
